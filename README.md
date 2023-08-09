@@ -1,4 +1,4 @@
-# React + Vite
+# Calculator App
 
 - [x] Fonctionnalités de la calculatrice
 
