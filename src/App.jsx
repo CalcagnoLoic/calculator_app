@@ -55,13 +55,19 @@ export const App = () => {
 
     return (
         <>
-            <div className="max-w-sm m-auto mt-12 sm:mt-24">
+            <div className="max-w-sm m-auto mt-12 sm:mt-24 drop-shadow-custom" >
                 <div className="bg-slate-500 max-w-md max-h max-h-screen p-5 rounded-2xl mx-3 sm:mx-0">
-                    <button className="bg-gray-800 text-white py-5 px-12 text-end rounded-sm font-bold text-2xl w-full">
+                    <button
+                        className="bg-gray-800 text-white p-2 px-12 text-end rounded-sm font-bold text-2xl w-full"
+                        id="screen"
+                    >
                         {expression}
                     </button>
-                    <button className="bg-gray-800 text-white py-5 px-12 text-end rounded-sm font-bold text-2xl mb-5 w-full">
-                        Result: {display}
+                    <button
+                        className="bg-gray-800 text-white py-5 px-12 text-end rounded-sm font-bold text-4xl mb-5 w-full"
+                        id="screen"
+                    >
+                        <span>Result: {display ? display : "___"}</span>
                     </button>
                     <div className="bg-gray-600 rounded-sm p-5">
                         <div className="flex justify-around mb-2">
