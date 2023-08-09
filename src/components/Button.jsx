@@ -1,8 +1,8 @@
-export const Button = ({ text }) => {
+export const Button = ({ text, design }) => {
     //console.log(text);
     return (
         <button
-            className="bg-gray-200 rounded-lg p-7 h-10 w-10 sm:w-16 flex items-center justify-center border-b-4 border-b-gray-400 cursor-pointer text-slate-800 text-2xl font-bold"
+            className={`rounded-lg p-7 flex items-center justify-center border-b-4 cursor-pointer text-slate-800 text-2xl font-bold ${design}`}
             value={text}
         >
             {text}
