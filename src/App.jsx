@@ -40,7 +40,7 @@ export const App = () => {
                         return (acc = acc + array[index + 1]);
                     case "-":
                         return (acc = acc - array[index + 1]);
-                    case "*":
+                    case "x":
                         return (acc = acc * array[index + 1]);
                     case "/":
                         return (acc = acc / array[index + 1]);
